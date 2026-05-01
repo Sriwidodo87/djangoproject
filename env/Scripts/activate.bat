@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\python-projects\Belajar Django 4.2. LTS\env
+set VIRTUAL_ENV=C:\python-projects\django4lts\env
 
 if not defined PROMPT set PROMPT=$P$G
 
