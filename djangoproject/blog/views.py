@@ -4,12 +4,14 @@ from django.shortcuts import render
 def index(request):
     context={
         'title':"blog",
-        'developer':"Pargoy",
-        'nav':[
-            ['/',"Home"],
-            ['/blog',"Blog"],
-            ['/blog/artikel',"Artikel"],
-            ['/blog/berita',"Berita"],
-        ]
+        'subtitle':"Ini adalah Halaman Blog ",
+        # 'nav':[
+        #     ['/',"Home"],
+        #     ['/blog',"Blog"],
+        #     ['/kontak',"Kontak"],
+        #
+        # ],
+        'banner': 'images/about.png'
     }
-    return render(request,'blog/index.html',context)
+    # return render(request,'blog/index.html',context)
+    return render(request,'index.html',context)
