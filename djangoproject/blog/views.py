@@ -11,7 +11,8 @@ def index(request):
         #     ['/kontak',"Kontak"],
         #
         # ],
-        'banner': 'images/about.png'
+        'banner': 'images/about.png',
+        'cssapps':'css/css_blog.css',
     }
     # return render(request,'blog/index.html',context)
     return render(request,'index.html',context)

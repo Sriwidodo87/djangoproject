@@ -8,7 +8,7 @@
 {% block content %}
 {%include "snippets/navbar.html" %}
 <!--<img src="{% static '/images/beranda.png' %}" alt="beranda" width="100%" height="300">-->
-<img src="{% static banner %}" alt="beranda" width="100%" height="300">
+<img id="banner" src="{% static banner %}" alt="banner" >
 <ul>
     {% for link,name in nav %}
     <li><a href="{{link}}">{{name}}</a></li>
